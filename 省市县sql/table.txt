@@ -1,0 +1,7 @@
+CREATE TABLE `t_resource_region` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `code` varchar(10) DEFAULT NULL,
+  `name` varchar(40) DEFAULT NULL,
+  `parent` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
